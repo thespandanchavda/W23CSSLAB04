@@ -1,0 +1,37 @@
+body {
+  color: #333;
+  background-image: url('Spandan.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+p {
+  color: black;
+}
+
+.wrapper {
+  width: 80vw;
+  background-color: #eee;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+#sd {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  filter: blur(3px) brightness(2);
+}
+@media(min-width: 768px) {
+  img {
+    max-width: 500px;
+    height: auto;
+    background-color: rgb(200, 233, 14); 
+  }
+}
+
+li:nth-of-type(odd) {
+  font-weight: bold;
+}
